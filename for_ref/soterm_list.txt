@@ -1,0 +1,43 @@
+SO term	Definitions	SO accession	Functional consequence score
+transcript ablation	A feature ablation whereby the deleted region includes a transcript feature.	SO_0001893	1
+curator inference	A sequence variant which is manually curated.	N/A	1
+trinucleotide repeat expansion	A short tandem repeat expansion with an increase in a sequence of three nucleotide units repeated in tandem compared to a reference sequence.	SO_0002165	1
+short tandem repeat expansion	A short tandem repeat variant containing more repeat units than the reference sequence.	SO_0002162	1
+frameshift variant	A sequence variant which causes a disruption of the translational reading frame, because the number of nucleotides inserted or deleted is not a multiple of three.	SO_0001589	0.95
+stop gained	A sequence variant whereby at least one base of a codon is changed, resulting in a premature stop codon, leading to a shortened transcript.	SO_0001587	0.95
+splice region variant	A sequence variant in which a change has occurred within the region of the splice site, either within 1-3 bases of the exon or 3-8 bases of the intron.	SO_0001630	0.95
+splice acceptor variant	A splice variant that changes the 2 base region at the 3' end of an intron.	SO_0001574	0.95
+splice donor variant	A splice variant that changes the 2 base pair region at the 5' end of an intron.	SO_0001575	0.95
+coding sequence variant	A sequence variant that changes the coding sequence.	SO_0001580	0.95
+start lost	A codon variant that changes at least one base of the canonical start codon..	SO_0002012	0.95
+incomplete terminal codon variant	A sequence variant where at least one base of the final codon of an incompletely annotated transcript is changed..	SO_0001626	0.9
+stop lost	A sequence variant where at least one base of the terminator codon (stop) is changed, resulting in an elongated transcript.	SO_0001578	0.9
+protein altering variant	A sequence_variant which is predicted to change the protein encoded in the coding sequence.	SO_0001818	0.7
+missense variant	A sequence variant that changes one or more bases, resulting in a different amino acid sequence but where the length is preserved.	SO_0001583	0.7
+initiator codon variant	A codon variant that changes at least one base of the first codon of a transcript.	SO_0001582	0.7
+inframe deletion	An inframe non synonymous variant that deletes bases from the coding sequence.	SO_0001822	0.7
+inframe insertion	An inframe non synonymous variant that inserts bases into in the coding sequence.	SO_0001821	0.7
+non coding transcript exon variant	A sequence variant that changes non-coding exon sequence in a non-coding transcript.	SO_0001619	0.65
+NMD transcript variant	A variant in a transcript that is the target of NMD.	SO_0001621	0.65
+intron variant	A transcript variant occurring within an intron.	SO_0001627	0.65
+mature miRNA variant	A transcript variant located with the sequence of the mature miRNA.	SO_0001620	0.65
+3 prime UTR variant	A UTR variant of the 3' UTR.	SO_0001624	0.65
+5 prime UTR variant	A UTR variant of the 5' UTR.	SO_0001623	0.65
+non_coding_transcript_exon_variant	A UTR variant of the 5' UTR.	SO_0001792	0.65
+synonymous variant	A sequence variant where there is no resulting change to the encoded amino acid.	SO_0001819	0.65
+stop retained variant	A sequence variant where at least one base in the terminator codon is changed, but the terminator remains.	SO_0001567	0.65
+regulatory region variant	A sequence variant located within a regulatory region.	SO_0001566	0.6
+upstream gene variant	A sequence variant located 5' of a gene.	SO_0001631	0.6
+downstream gene variant	A sequence variant located 3' of a gene.	SO_0001632	0.6
+TF binding site variant	A sequence variant located within a transcription factor binding site.	SO_0001782	0.6
+transcript amplification	A feature amplification of a region containing a transcript.	SO_0001889	0.6
+regulatory region amplification	A feature amplification of a region containing a regulatory region.	SO_0001891	0.6
+TFBS amplification	A feature amplification of a region containing a transcription factor binding site.	SO_0001892	0.6
+regulatory region ablation	A feature ablation whereby the deleted region includes a regulatory region.	SO_0001894	0.6
+TFBS ablation	A feature ablation whereby the deleted region includes a transcription factor binding site.	SO_0001895	0.6
+feature truncation	A sequence variant that causes the reduction of a genomic feature, with regard to the reference sequence.	SO_0001906	0.6
+feature elongation	A sequence variant that causes the extension of a genomic feature, with regard to the reference sequence.	SO_0001907	0.6
+Regulatory nearest gene five prime end	Regulatory nearest gene 5' end.	N/A	0.5
+Nearest gene five prime end	Nearest gene counting from the 5' end.	N/A	0.5
+sequence variant	A sequence variant is a non exact copy of a sequence feature or genome exhibiting one or more sequence alteration.	SO_0001060	0.5
+conservative inframe deletion	An inframe decrease in cds length that deletes one or more entire codons from the coding sequence but does not change any remaining codons.	SO_0001825	0.5
