@@ -32,6 +32,6 @@ if you want to train your data, you can use CV_multimodal_compare.py
 cancer_name argument is meaning TCGA cancer name.(One of the following: BRCA, PAAD, PRAD)
 
 ### example 
-    python3 DriverDNN_training.py -cancer_name BRCA 
+    python3 CV_multimodal_compare.py -cancer_name BRCA 
 
 
