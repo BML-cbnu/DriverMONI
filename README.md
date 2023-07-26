@@ -16,14 +16,12 @@ In gene expression data, format like sample data in sample_data folder is needed
 ## argument
 ### 1. cancer_name 
 cancer_name argument is meaning TCGA cancer name.(One of the following: BRCA, PAAD, PRAD)
-### 2. out_dir
-directory for save data file
-### 3. exp_data_dir
+### 2. exp_data_dir
 directory of gene expresssion data
-### 4. muta_data_dir
+### 3. muta_data_dir
 directory of gene mutation data(maf file)
 ### example
-    python3 data_preprocessor.py -cancer_name BRCA -out_dir /home/bml_pjh/ -exp_data_dir /mnt/disk1/driver_gene/data/bf_preprocess/BRCA/gene_exp/BRCA-gene-exp.tsv -muta_data_dir /mnt/disk1/driver_gene/data/bf_preprocess/BRCA/gene_muta/BRCA.varscan.maf
+    python3 data_preprocessor.py -cancer_name BRCA -exp_data_dir /mnt/disk1/driver_gene/data/bf_preprocess/BRCA/gene_exp/BRCA-gene-exp.tsv -muta_data_dir /mnt/disk1/driver_gene/data/bf_preprocess/BRCA/gene_muta/BRCA.varscan.maf
 
 # training by DriverMONI
 if you want to train your data, you can use CV_multimodal_compare.py
