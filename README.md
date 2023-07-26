@@ -4,7 +4,7 @@ In our study, we classify 14 cancers driver gene by deep neural network.
 # make input data
 if you want to make input data, you can use data_preprocessor.py. 
 Sample data for making input data are in sample_data folder. 
-Before you run data_preprocessor.py, you have to decompress humannet_ens_PPI.zip in for_ref folder. 
+Before you run data_preprocessor.py, you have to decompress humannet_v2_and_v3.zip in for_ref folder. 
 Cancer_input_data.csv(ex: BRCA_input_data.csv) is input data file that made by data_preprocessor.py.
 ## format of files that needed for making input data
 ### mutation data
